@@ -11,5 +11,6 @@ btn.addEventListener("click", function () {
     error.style.display = "block";
   } else {
     input.style.borderColor = "green";
+    error.style.display = "none";
   }
 });
